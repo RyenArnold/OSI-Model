@@ -1,2 +1,18 @@
 # OSI-Model
- Information about the seven layers of the OSI model
+# What is the OSI model: basic principles
+The OSI (Open Systems Interconnection) model is a structured approach to organising the operation of network protocols and devices. Developed by the International Organisation for Standardisation (ISO), it defines seven layers of communication, each of which performs a specific function.
+## OSI model layers and their functions
+### Layer 1: Physical Layer
+The physical layer provides the physical transmission of data over the communication medium. It defines the characteristics of cables, connectors, transmission protocols and other aspects of physical communication. This layer is responsible for converting data into signals that can be transmitted over the physical medium. Examples: Ethernet cables for wired data transmission, fibre optics for data transmission via light signals, USB for connecting devices to a computer.
+### Level 2: Data link layer
+The data link layer is where data is transferred between neighbouring devices on the network. It is responsible for frame creation, device addressing, media access control and error detection. This layer ensures that data is successfully delivered between devices on the same network. Examples: Ethernet for wired network data transmission, Wi-Fi for wireless data transmission.
+### Layer 3: Network Layer
+The network layer deals with the routing of data on the network. It determines the optimal path for data transfer between different networks and devices. It also controls the flow of data and error control within the network. Examples of protocols are IP (Internet Protocol) for routing data between networks, ICMP (Internet Control Message Protocol) for error reporting and network control.
+### Level 4: Transport Level
+The transport layer ensures reliable delivery of data from one node to another. It is responsible for dividing data into packets, controlling errors, managing the flow of data, and ensuring delivery in the correct sequence. At this layer, protocols provide mechanisms for establishing, maintaining and terminating connections. Examples of protocols are TCP (Transmission Control Protocol) for reliable delivery of data in the correct sequence and error control, UDP (User Datagram Protocol) for transmission of data WITHOUT guarantee of delivery.
+### Layer 5: Session Layer
+The session layer establishes, maintains, and terminates communication sessions between applications. This layer controls communication and synchronisation between applications by providing the means to manage sessions. It is also responsible for managing dialogues and ensuring that communication is restored when failures occur. Examples: NetBIOS for session management on Windows networks, SSH for secure remote access.
+### Level 6: Representative level
+The representation layer is responsible for converting data into an exchangeable format. It provides data compression, encoding, decoding and encryption. This allows for compatibility between different data formats, as applications may use different formats to represent information. Examples include JPEG for image compression, MPEG for video compression, and data security technologies SSL (Secure Sockets Layer) and TLS (Transport Layer Security).
+### Level 7: Application level
+The application layer is where user applications interact with network services. This layer provides an interface to applications that allows programmes to communicate over the network. This is where the protocols that allow data to be exchanged between programmes and users operate. Examples of protocols are HTTP for transmitting web pages, SMTP for sending email.
